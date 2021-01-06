@@ -8,10 +8,19 @@
     "noEmit": true,
     "baseUrl": ".",
     "allowJs": false,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "paths": {
+      "/@/*": [
+        "src/*"
+      ],
+    },
   },
   "exclude": [
     "node_modules",
     "dist"
+  ],
+  "include": [
+    "src",
   ]
 }
