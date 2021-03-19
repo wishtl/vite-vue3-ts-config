@@ -22,5 +22,6 @@
   ],
   "include": [
     "src",
+    "shims.source.d.ts" //配置的.d.ts文件
   ]
 }
